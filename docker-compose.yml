@@ -1,0 +1,10 @@
+version: '3'
+services:
+  node:
+    build:
+      context: docker/node
+    working_dir: /workdir
+    volumes:
+      - ./:/workdir/
+    expose:
+    - "8080"
