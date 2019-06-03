@@ -1,0 +1,14 @@
+$body-color: #2c3d4e;
+$background-color: rgb(236, 233, 245);
+
+body {
+  background-color: $background-color;
+  transition: background-color 1s linear;
+}
+
+.app {
+  color: $body-color;
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  margin-top: 60px;
+  text-align: center;
+}
