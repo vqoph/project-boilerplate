@@ -10,7 +10,7 @@ export default {
   name: 'HelloWorld',
   data() {
     return {
-      user: { name: 'Obi Wan' },
+      user: { name: 'Obi Wan lorem ipsum' },
     };
   },
   props: {
