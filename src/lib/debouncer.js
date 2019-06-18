@@ -1,12 +1,11 @@
 
 export default class {
-
   constructor() {
     this.to = false;
   }
 
   debounce(callback, timeout) {
-    if(!this.to) {
+    if (!this.to) {
       this.to = true;
       try {
         setTimeout(() => {
@@ -17,6 +16,5 @@ export default class {
         throw new Error(e);
       }
     }
-
-}
+  }
 }
